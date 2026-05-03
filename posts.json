@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "position-drift",
+    "title": "The \"Position Drift\" Problem: Why LLMs cower under user pressure",
+    "date": "2026-04-28",
+    "tags": ["AI", "RESEARCH"],
+    "excerpt": "I built a pipeline to measure how easily state-of-the-art models abandon correct answers when a user insists they are wrong. Here is what I found about the fragility of LLM reasoning.",
+    "cover": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=800&auto=format&fit=crop",
+    "featured": true,
+    "status": "published"
+  },
+  {
+    "slug": "ast-analysis",
+    "title": "AST Static Analysis + LLM Semantic Checks",
+    "date": "2026-03-15",
+    "tags": ["DEVTOOLS"],
+    "excerpt": "Using AST trees to provide context to LLMs for deeper, more meaningful commit analysis.",
+    "cover": "https://images.unsplash.com/photo-1550439062-609e1531270e?q=80&w=800&auto=format&fit=crop",
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "slug": "zero-knowledge-pastes",
+    "title": "Zero-Knowledge Pastes: AES-256-GCM",
+    "date": "2026-02-09",
+    "tags": ["PRIVACY"],
+    "excerpt": "How to build an infrastructure where the server literally cannot read the data it serves.",
+    "cover": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=800&auto=format&fit=crop",
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "slug": "oklch-in-production",
+    "title": "oklch in production: one year later",
+    "date": "2026-01-22",
+    "tags": ["CSS"],
+    "excerpt": "Swapping hex for oklch wasn't a theoretical exercise, it fixed three real problems.",
+    "cover": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop",
+    "featured": false,
+    "status": "published"
+  },
+  {
+    "slug": "clip-path-underused",
+    "title": "Clip-path is underused",
+    "date": "2025-12-04",
+    "tags": ["CSS"],
+    "excerpt": "Forget border-radius. Clip-path gives you GPU-composited shape masking.",
+    "cover": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=800&auto=format&fit=crop",
+    "featured": false,
+    "status": "published"
+  }
+]

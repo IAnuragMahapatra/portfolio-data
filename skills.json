@@ -1,0 +1,58 @@
+[
+  {
+    "category": "LANGUAGES",
+    "items": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "Java",
+      "C/C++",
+      "SQL",
+      "Bash"
+    ]
+  },
+  {
+    "category": "AI / ML",
+    "items": [
+      "LangChain",
+      "RAG (FAISS)",
+      "NLP (VADER, TF-IDF)",
+      "Hugging Face",
+      "OpenAI SDK",
+      "Anthropic SDK"
+    ]
+  },
+  {
+    "category": "WEB TECH",
+    "items": [
+      "React · Next.js",
+      "Node.js · Express",
+      "FastAPI",
+      "MongoDB",
+      "PostgreSQL",
+      "WebSockets",
+      "REST APIs · JWT"
+    ]
+  },
+  {
+    "category": "CLOUD / OPS",
+    "items": [
+      "Docker",
+      "AWS (EC2, S3, RDS)",
+      "Lambda · CloudWatch",
+      "Vercel",
+      "Git · GitHub Actions",
+      "Linux"
+    ]
+  },
+  {
+    "category": "TOOLS",
+    "items": [
+      "Git",
+      "Cloudflare",
+      "AST (tree-sitter)",
+      "OAuth 2.0",
+      "pytest · Jest"
+    ]
+  }
+]

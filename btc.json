@@ -1,0 +1,111 @@
+{
+  "hero": {
+    "titleLine1": "BEHIND",
+    "titleLine2": "THE CODE",
+    "bioParagraph1": "I'm a designer who writes code and a developer who thinks in pixels. I started making websites when I was 14 because I thought it was cool that you could type some words and a page would appear. <span class=\"muted\">That feeling never went away.</span>",
+    "pullQuote": "The gap between good and great is where I live.",
+    "bioParagraph2": "Most of my days are spent obsessing over <span class=\"accent\">the 2px that makes a layout click</span>, the easing curve that makes an animation feel alive, the interaction that makes someone pause and think \"wait, that was nice.\"",
+    "bioParagraph3": "When I'm not at my desk, I'm probably playing something on my Switch, discovering music I'll loop for three weeks straight, or taking long walks pretending I'm in a movie. <span class=\"muted\">Standard stuff.</span>",
+    "photoUrl": "",
+    "photoCaption": "somewhere, 2026"
+  },
+  "games": [
+    {
+      "title": "Final Fantasy XVI",
+      "link": "https://store.steampowered.com/app/2515020/FINAL_FANTASY_XVI/",
+      "hours": "9 hr 28 min",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515020/capsule_616x353.jpg"
+    },
+    {
+      "title": "REPLACED",
+      "link": "https://store.steampowered.com/app/1663850/REPLACED/",
+      "hours": "1hr 21 min",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1663850/capsule_616x353.jpg"
+    },
+    {
+      "title": "Hollow Knight",
+      "link": "https://store.steampowered.com/app/367520/Hollow_Knight/",
+      "hours": "46hr 4 min",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/capsule_616x353.jpg"
+    }
+  ],
+  "hardware": [
+    {
+      "label": "MACHINE",
+      "value": "M3 Max MacBook Pro",
+      "detail": "16-core CPU · 40-core GPU · 64 GB"
+    },
+    {
+      "label": "DISPLAY",
+      "value": "Apple Studio Display",
+      "detail": "27\" 5K Retina"
+    },
+    {
+      "label": "KEYBOARD",
+      "value": "Keychron Q1 Pro",
+      "detail": "Gateron G Pro 3.0 Browns"
+    },
+    {
+      "label": "POINTER",
+      "value": "Logitech MX Master 3S",
+      "detail": "Quiet clicks, 8K DPI"
+    },
+    {
+      "label": "AUDIO",
+      "value": "Sony WH-1000XM5",
+      "detail": "Noise cancelling everything"
+    },
+    {
+      "label": "EDITOR",
+      "value": "VS Code",
+      "detail": "Vim bindings · GitHub Dark"
+    },
+    {
+      "label": "TERMINAL",
+      "value": "Warp",
+      "detail": "Starship prompt · Fish shell"
+    },
+    {
+      "label": "OS",
+      "value": "macOS",
+      "detail": "Version 15.0"
+    }
+  ],
+  "music": {
+    "artist": "The Midnight",
+    "track": "Endless Summer",
+    "album": "ENDLESS SUMMER · 2016"
+  },
+  "gallery": [
+    {
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600&auto=format&fit=crop",
+      "caption": "color theory, 2026",
+      "alt": "Abstract color study"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=600&auto=format&fit=crop",
+      "caption": "somewhere quiet",
+      "alt": "Mountain landscape"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1633511090164-b4bfac421678?q=80&w=600&auto=format&fit=crop",
+      "caption": "details matter",
+      "alt": "Tech detail"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?q=80&w=600&auto=format&fit=crop",
+      "caption": "late night commits",
+      "alt": "Code on screen"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=600&auto=format&fit=crop",
+      "caption": "touching grass",
+      "alt": "Nature"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?q=80&w=600&auto=format&fit=crop",
+      "caption": "album art collection",
+      "alt": "Album artwork"
+    }
+  ]
+}

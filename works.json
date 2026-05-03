@@ -1,0 +1,103 @@
+[
+  {
+    "id": "01",
+    "name": "DRIFT",
+    "tag": "AI · RESEARCH",
+    "featured": true,
+    "description": "Chrome extension that detects when an LLM abandons a correct position under user pressure, with no new evidence introduced. Two-model pipeline: one extracts stance, one judges shift. Works across any provider, local or cloud.",
+    "stack": [
+      "Chrome Extension",
+      "LLM Pipeline",
+      "Ollama",
+      "Anthropic API",
+      "OpenAI API"
+    ],
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=800&auto=format&fit=crop",
+    "imageAlt": "DRIFT project",
+    "github": "https://github.com",
+    "live": "",
+    "blog": "pages/post.html?slug=position-drift"
+  },
+  {
+    "id": "02",
+    "name": "COMMITSENSE",
+    "tag": "AI · DEVTOOLS",
+    "featured": true,
+    "description": "Git commit quality analyzer that runs AST static analysis and LLM semantic validation on every push via GitHub webhooks. Surfaces regressions before they merge, not after.",
+    "stack": [
+      "AST Analysis",
+      "LLM",
+      "GitHub Webhooks",
+      "React"
+    ],
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop",
+    "imageAlt": "COMMITSENSE project",
+    "github": "https://github.com",
+    "live": "https://example.com"
+  },
+  {
+    "id": "03",
+    "name": "BLINKBIN",
+    "tag": "PRIVACY · INFRA",
+    "featured": true,
+    "description": "Ephemeral paste sharing with AES-256-GCM encryption and burn-after-read semantics. Kafka-backed event streaming on AWS. The server never knows what it's storing.",
+    "stack": [
+      "AES-256-GCM",
+      "Kafka",
+      "Redis",
+      "AWS"
+    ],
+    "image": "https://images.unsplash.com/photo-1639322537228-f710d846310a?q=80&w=800&auto=format&fit=crop",
+    "imageAlt": "BLINKBIN project",
+    "github": "",
+    "live": "https://example.com"
+  },
+  {
+    "id": "04",
+    "name": "NEXUS",
+    "tag": "WEB · ARCHITECTURE",
+    "featured": false,
+    "description": "A distributed micro-frontend architecture orchestrating complex data visualization modules with seamless state synchronization across independent domains.",
+    "stack": [
+      "React",
+      "TypeScript",
+      "WebSockets"
+    ],
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
+    "imageAlt": "NEXUS project",
+    "github": "https://github.com",
+    "live": ""
+  },
+  {
+    "id": "05",
+    "name": "AURA",
+    "tag": "DESIGN · SYSTEMS",
+    "featured": false,
+    "description": "Comprehensive design token engine that compiles Figma JSON variables into platform-specific configurations for web, iOS, and Android seamlessly.",
+    "stack": [
+      "Node.js",
+      "Figma API",
+      "GitHub Actions"
+    ],
+    "image": "https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=800&auto=format&fit=crop",
+    "imageAlt": "AURA project",
+    "github": "https://github.com",
+    "live": ""
+  },
+  {
+    "id": "06",
+    "name": "SYNTHESIS",
+    "tag": "DATA · ENGINEERING",
+    "featured": false,
+    "description": "High-throughput data processing pipeline aggregating logs from edge nodes, storing in a column-oriented database for real-time analytics.",
+    "stack": [
+      "Go",
+      "Kafka",
+      "ClickHouse"
+    ],
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop",
+    "imageAlt": "SYNTHESIS project",
+    "github": "https://github.com",
+    "live": ""
+  }
+]
