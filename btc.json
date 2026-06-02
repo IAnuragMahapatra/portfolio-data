@@ -2,90 +2,112 @@
   "hero": {
     "titleLine1": "BEHIND",
     "titleLine2": "THE CODE",
-    "bioParagraph1": "I'm a designer who writes code and a developer who thinks in pixels. I started making websites when I was 14 because I thought it was cool that you could type some words and a page would appear. <span class=\"muted\">That feeling never went away.</span>",
-    "pullQuote": "The gap between good and great is where I live.",
-    "bioParagraph2": "Most of my days are spent obsessing over <span class=\"accent\">the 2px that makes a layout click</span>, the easing curve that makes an animation feel alive, the interaction that makes someone pause and think \"wait, that was nice.\"",
-    "bioParagraph3": "When I'm not at my desk, I'm probably playing something on my Switch, discovering music I'll loop for three weeks straight, or taking long walks pretending I'm in a movie. <span class=\"muted\">Standard stuff.</span>",
+    "bioParagraph1": "I never had a CS class in school. My school didn't offer one. But I had a laptop, PC games, and a feeling that the people building this stuff had figured something out I hadn't yet. <span class=\"muted\">I wanted in.</span>",
+    "pullQuote": "I can't really stop. I just hit a deadline.",
+    "bioParagraph2": "The thing that got me was a fractal simulator I built in Java. Just me, some math I barely understood, and a screen full of something genuinely <span class=\"accent\">beautiful</span> that I made from scratch. That dopamine hit never really left. Building is frustrating and consuming and I wouldn't trade it for anything.",
+    "bioParagraph3": "Off the desk I'm probably deep in a cinematic single-player game, ricing my setup for the fourth time this month, or just hanging with people. I like my own space a lot. I also like people a lot. <span class=\"muted\">Both things are true.</span>",
     "photoUrl": "",
-    "photoCaption": "somewhere, 2026"
+    "photoCaption": "burla, 2025"
   },
   "games": [
     {
-      "title": "Final Fantasy XVI",
-      "link": "https://store.steampowered.com/app/2515020/FINAL_FANTASY_XVI/",
-      "hours": "9 hr 28 min",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515020/capsule_616x353.jpg"
+      "title": "Black Myth: Wukong",
+      "link": "https://store.steampowered.com/app/2358720/Black_Myth_Wukong/",
+      "hours": "4hr 43 min",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/capsule_616x353.jpg"
     },
     {
-      "title": "REPLACED",
-      "link": "https://store.steampowered.com/app/1663850/REPLACED/",
-      "hours": "1hr 21 min",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1663850/capsule_616x353.jpg"
+      "title": "Pragmata",
+      "link": "https://store.steampowered.com/app/1334520/Pragmata/",
+      "hours": "2hr 12 min",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1334520/capsule_616x353.jpg"
+    },
+    {
+      "title": "Final Fantasy XVI",
+      "link": "https://store.steampowered.com/app/2515020/FINAL_FANTASY_XVI/",
+      "hours": "9hr 28 min",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515020/capsule_616x353.jpg"
     },
     {
       "title": "Hollow Knight",
       "link": "https://store.steampowered.com/app/367520/Hollow_Knight/",
       "hours": "46hr 4 min",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/capsule_616x353.jpg"
+    },
+    {
+      "title": "REPLACED",
+      "link": "https://store.steampowered.com/app/1663850/REPLACED/",
+      "hours": "1hr 21 min",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1663850/capsule_616x353.jpg"
     }
   ],
   "hardware": [
     {
       "label": "MACHINE",
-      "value": "M3 Max MacBook Pro",
-      "detail": "16-core CPU · 40-core GPU · 64 GB"
+      "value": "ASUS ROG Strix G16",
+      "detail": "i7-13650HX · RTX 4060 · 16GB RAM · 1TB"
     },
     {
       "label": "DISPLAY",
-      "value": "Apple Studio Display",
-      "detail": "27\" 5K Retina"
+      "value": "MarQ 27\" QHD IPS",
+      "detail": "2560×1440 · 100Hz · 1ms · Adaptive Sync"
+    },
+    {
+      "label": "STAND",
+      "value": "Portronics My Buddy K11",
+      "detail": "360° rotation · height adjustable · carbon steel"
     },
     {
       "label": "KEYBOARD",
-      "value": "Keychron Q1 Pro",
-      "detail": "Gateron G Pro 3.0 Browns"
+      "value": "Portronics Hydra 10",
+      "detail": "Wireless mechanical · Brown switches · RGB"
     },
     {
       "label": "POINTER",
-      "value": "Logitech MX Master 3S",
-      "detail": "Quiet clicks, 8K DPI"
+      "value": "Kreo Chimera V2",
+      "detail": "Wireless · 12K DPI · hot-swap switches · white"
     },
     {
-      "label": "AUDIO",
-      "value": "Sony WH-1000XM5",
-      "detail": "Noise cancelling everything"
+      "label": "CONTROLLER",
+      "value": "EvoFox Elite X2",
+      "detail": "Wireless · Hall effect sticks · dual vibration"
+    },
+    {
+      "label": "HEADSET",
+      "value": "Zebronics Zeb-Blitz",
+      "detail": "Dolby Atmos · 7.1 surround · wireless"
+    },
+    {
+      "label": "EARBUDS",
+      "value": "CMF Buds 2",
+      "detail": "48dB ANC · 11mm PMI driver · dark grey"
     },
     {
       "label": "EDITOR",
       "value": "VS Code",
-      "detail": "Vim bindings · GitHub Dark"
-    },
-    {
-      "label": "TERMINAL",
-      "value": "Warp",
-      "detail": "Starship prompt · Fish shell"
+      "detail": "Because it's home"
     },
     {
       "label": "OS",
-      "value": "macOS",
-      "detail": "Version 15.0"
+      "value": "Windows 11",
+      "detail": "Riced within an inch of its life"
     }
   ],
   "music": {
-    "artist": "The Midnight",
-    "track": "Endless Summer",
-    "album": "ENDLESS SUMMER · 2016"
+    "artist": "Ash King & Chinmayi",
+    "track": "Dil Gira Dafatan",
+    "album": "DELHI 6 · A.R. Rahman · 2009"
   },
   "gallery": [
     {
       "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600&auto=format&fit=crop",
-      "caption": "color theory, 2026",
-      "alt": "Abstract color study"
+      "caption": "fractal rabbit hole, 2024",
+      "alt": "Abstract generative visual"
     },
     {
       "image": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=600&auto=format&fit=crop",
-      "caption": "somewhere quiet",
-      "alt": "Mountain landscape"
+      "caption": "somewhere in odisha",
+      "alt": "Landscape"
     },
     {
       "image": "https://images.unsplash.com/photo-1633511090164-b4bfac421678?q=80&w=600&auto=format&fit=crop",
@@ -94,18 +116,18 @@
     },
     {
       "image": "https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?q=80&w=600&auto=format&fit=crop",
-      "caption": "late night commits",
+      "caption": "3am and shipping anyway",
       "alt": "Code on screen"
     },
     {
       "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=600&auto=format&fit=crop",
-      "caption": "touching grass",
+      "caption": "touching grass occasionally",
       "alt": "Nature"
     },
     {
       "image": "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?q=80&w=600&auto=format&fit=crop",
-      "caption": "album art collection",
-      "alt": "Album artwork"
+      "caption": "what the playlist looked like",
+      "alt": "Album art"
     }
   ]
 }
