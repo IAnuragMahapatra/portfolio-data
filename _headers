@@ -6,19 +6,25 @@
 
 /anurag_mahapatra_cv_2026.pdf
   Content-Disposition: inline; filename="anurag_mahapatra_cv_2026.pdf"
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Methods: GET, HEAD, OPTIONS
-  Access-Control-Allow-Headers: Content-Type
-  Vary: Origin
-
-/*.json
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
-
-/*.md
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
-
-/*.pdf
   Cache-Control: public, max-age=86400
 
-/*.mp3
+/dp.jpeg
   Cache-Control: public, max-age=86400
+
+/song.mp3
+  Cache-Control: public, max-age=86400
+
+/works.json
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/posts.json
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/btc.json
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/skills.json
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/posts/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
