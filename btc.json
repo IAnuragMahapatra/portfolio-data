@@ -2,95 +2,73 @@
   "hero": {
     "titleLine1": "BEHIND",
     "titleLine2": "THE CODE",
-    "bioParagraph1": "I never had a CS class in school. My school didn't offer one. But I had a laptop, PC games, and a feeling that the people building this stuff had figured something out I hadn't yet. <span class=\"muted\">I wanted in.</span>",
-    "pullQuote": "I can't really stop. I just hit a deadline.",
-    "bioParagraph2": "The thing that got me was a fractal simulator I built in Java. Just me, some math I barely understood, and a screen full of something genuinely <span class=\"accent\">beautiful</span> that I made from scratch. That dopamine hit never really left. Building is frustrating and consuming and I wouldn't trade it for anything.",
-    "bioParagraph3": "Off the desk I'm probably deep in a cinematic single-player game, ricing my setup for the fourth time this month, or just hanging with people. I like my own space a lot. I also like people a lot. <span class=\"muted\">Both things are true.</span>",
-    "photoUrl": "",
-    "photoCaption": "burla, 2025"
+    "bioParagraph1": "Grew up glued to phones, laptops, PC games. The more I used them, the more I wanted to know what was actually going on underneath. <span class=\"muted\">That curiosity never really settled.</span>",
+    "bioParagraph2": "What actually got me was a fractal simulator I built in Java. Just me, some math I barely understood, and something on screen that was genuinely <span class=\"accent\">beautiful</span> and I had made it. That dopamine hit never really left. Building is frustrating and consuming and I still chase that feeling in every project, every weird side thing I spin up late at night.",
+    "pullQuote": "Now I build things.\nThat's just what I do.",
+    "bioParagraph3": "I want things to feel polished in a way they probably never will. Most of the time I am the one who has to consciously tell myself it is good enough and just ship it. Off the screen I am pretty happy just being in my own space with a good game, a series, some configs to mess with, new tools to try out. I also really like people though. Hanging out, long walks, gossip, going wherever with no real plan. <span class=\"muted\">I need both to function.</span>",
+    "photoUrl": "dp.jpeg",
+    "photoCaption": "somewhere, 2026"
   },
   "games": [
     {
       "title": "Black Myth: Wukong",
       "link": "https://store.steampowered.com/app/2358720/Black_Myth_Wukong/",
       "hours": "4hr 43 min",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/capsule_616x353.jpg"
-    },
-    {
-      "title": "Pragmata",
-      "link": "https://store.steampowered.com/app/1334520/Pragmata/",
-      "hours": "2hr 12 min",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1334520/capsule_616x353.jpg"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/page_bg_generated_v6b.jpg"
     },
     {
       "title": "Final Fantasy XVI",
       "link": "https://store.steampowered.com/app/2515020/FINAL_FANTASY_XVI/",
       "hours": "9hr 28 min",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515020/capsule_616x353.jpg"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515020/page_bg_generated_v6b.jpg"
     },
     {
       "title": "Hollow Knight",
       "link": "https://store.steampowered.com/app/367520/Hollow_Knight/",
       "hours": "46hr 4 min",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/capsule_616x353.jpg"
-    },
-    {
-      "title": "REPLACED",
-      "link": "https://store.steampowered.com/app/1663850/REPLACED/",
-      "hours": "1hr 21 min",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1663850/capsule_616x353.jpg"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/page_bg_generated_v6b.jpg"
     }
   ],
   "hardware": [
     {
       "label": "MACHINE",
-      "value": "ASUS ROG Strix G16",
-      "detail": "i7-13650HX · RTX 4060 · 16GB RAM · 1TB"
+      "value": "ASUS\nROG Strix G16",
+      "detail": "i7-13650HX · RTX 4060\n16GB RAM · 1TB"
     },
     {
       "label": "DISPLAY",
-      "value": "MarQ 27\" QHD IPS",
-      "detail": "2560×1440 · 100Hz · 1ms · Adaptive Sync"
-    },
-    {
-      "label": "STAND",
-      "value": "Portronics My Buddy K11",
-      "detail": "360° rotation · height adjustable · carbon steel"
+      "value": "MarQ\n27\" QHD IPS",
+      "detail": "2560×1440 · 100Hz\n1ms · Adaptive Sync"
     },
     {
       "label": "KEYBOARD",
-      "value": "Portronics Hydra 10",
-      "detail": "Wireless mechanical · Brown switches · RGB"
+      "value": "Portronics\nHydra 10",
+      "detail": "Wireless mechanical\nBrown switches · White"
     },
     {
       "label": "POINTER",
-      "value": "Kreo Chimera V2",
-      "detail": "Wireless · 12K DPI · hot-swap switches · white"
+      "value": "Kreo\nChimera V2",
+      "detail": "Wireless · 12K DPI\nhot-swappable · white"
+    },
+    {
+      "label": "LAPTOP STAND",
+      "value": "Portronics\nMy Buddy K11",
+      "detail": "360° rotation\nheight adjustable\ncarbon steel"
     },
     {
       "label": "CONTROLLER",
-      "value": "EvoFox Elite X2",
-      "detail": "Wireless · Hall effect sticks · dual vibration"
+      "value": "EvoFox\nElite X2",
+      "detail": "Wireless\nHall effect sticks\ndual vibration"
     },
     {
       "label": "HEADSET",
-      "value": "Zebronics Zeb-Blitz",
-      "detail": "Dolby Atmos · 7.1 surround · wireless"
+      "value": "Zebronics\nZeb-Blitz",
+      "detail": "Dolby Atmos\n7.1 surround"
     },
     {
       "label": "EARBUDS",
-      "value": "CMF Buds 2",
-      "detail": "48dB ANC · 11mm PMI driver · dark grey"
-    },
-    {
-      "label": "EDITOR",
-      "value": "VS Code",
-      "detail": "Because it's home"
-    },
-    {
-      "label": "OS",
-      "value": "Windows 11",
-      "detail": "Riced within an inch of its life"
+      "value": "CMF\nBuds 2",
+      "detail": "48dB ANC · dark grey\n11mm PMI driver"
     }
   ],
   "music": {
@@ -110,7 +88,7 @@
       "alt": "Landscape"
     },
     {
-      "image": "https://images.unsplash.com/photo-1633511090164-b4bfac421678?q=80&w=600&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=600&auto=format&fit=crop",
       "caption": "details matter",
       "alt": "Tech detail"
     },
