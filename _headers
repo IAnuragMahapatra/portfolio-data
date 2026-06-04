@@ -10,3 +10,15 @@
   Access-Control-Allow-Methods: GET, HEAD, OPTIONS
   Access-Control-Allow-Headers: Content-Type
   Vary: Origin
+
+/*.json
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/*.md
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/*.pdf
+  Cache-Control: public, max-age=86400
+
+/*.mp3
+  Cache-Control: public, max-age=86400
