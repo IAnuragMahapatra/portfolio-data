@@ -1,12 +1,12 @@
 /*
-  Access-Control-Allow-Origin: https://ianurag.site
+  Access-Control-Allow-Origin: *
   Access-Control-Allow-Methods: GET, HEAD, OPTIONS
   Access-Control-Allow-Headers: Content-Type
   Vary: Origin
 
-/resume.pdf
-  Content-Disposition: attachment; filename="mahapatra_anurag_2026.pdf"
-  Access-Control-Allow-Origin: https://ianurag.site
+/anurag_mahapatra_cv_2026.pdf
+  Content-Disposition: inline; filename="anurag_mahapatra_cv_2026.pdf"
+  Access-Control-Allow-Origin: *
   Access-Control-Allow-Methods: GET, HEAD, OPTIONS
   Access-Control-Allow-Headers: Content-Type
   Vary: Origin
