@@ -1,103 +1,112 @@
 [
   {
     "id": "01",
-    "name": "DRIFT",
-    "tag": "AI · RESEARCH",
-    "featured": true,
-    "description": "Chrome extension that detects when an LLM abandons a correct position under user pressure, with no new evidence introduced. Two-model pipeline: one extracts stance, one judges shift. Works across any provider, local or cloud.",
-    "stack": [
-      "Chrome Extension",
-      "LLM Pipeline",
-      "Ollama",
-      "Anthropic API",
-      "OpenAI API"
-    ],
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=800&auto=format&fit=crop",
-    "imageAlt": "DRIFT project",
-    "github": "https://github.com",
-    "live": "",
-    "blog": "pages/post.html?slug=position-drift"
-  },
-  {
-    "id": "02",
-    "name": "COMMITSENSE",
-    "tag": "AI · DEVTOOLS",
-    "featured": true,
-    "description": "Git commit quality analyzer that runs AST static analysis and LLM semantic validation on every push via GitHub webhooks. Surfaces regressions before they merge, not after.",
-    "stack": [
-      "AST Analysis",
-      "LLM",
-      "GitHub Webhooks",
-      "React"
-    ],
-    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop",
-    "imageAlt": "COMMITSENSE project",
-    "github": "https://github.com",
-    "live": "https://example.com"
-  },
-  {
-    "id": "03",
     "name": "BLINKBIN",
     "tag": "PRIVACY · INFRA",
     "featured": true,
-    "description": "Ephemeral paste sharing with AES-256-GCM encryption and burn-after-read semantics. Kafka-backed event streaming on AWS. The server never knows what it's storing.",
+    "description": "Ephemeral paste sharing with AES-256-GCM client-side encryption and burn-after-read semantics. Kafka-backed event streaming on a single EC2 t3.micro via Docker Compose. The server never sees plaintext. Architecture locked; Phase 0 implementation starting.",
     "stack": [
       "AES-256-GCM",
+      "drand IBE",
       "Kafka",
       "Redis",
-      "AWS"
+      "FastAPI",
+      "AWS EC2",
+      "Docker"
     ],
     "image": "https://images.unsplash.com/photo-1639322537228-f710d846310a?q=80&w=800&auto=format&fit=crop",
     "imageAlt": "BLINKBIN project",
-    "github": "",
-    "live": "https://example.com"
+    "github": "https://github.com/IAnuragMahapatra/blinkbin",
+    "live": ""
+  },
+  {
+    "id": "02",
+    "name": "DRIFT",
+    "tag": "AI · DEVTOOLS",
+    "featured": true,
+    "description": "Chrome extension that detects when an LLM abandons a correct position under user pressure, with no new evidence introduced. Two-model stance extraction + shift validation pipeline. Works across any provider, local or cloud. Production-ready.",
+    "stack": [
+      "Chrome Extension",
+      "Anthropic SDK",
+      "OpenAI SDK",
+      "LLM Pipeline"
+    ],
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=800&auto=format&fit=crop",
+    "imageAlt": "DRIFT project",
+    "github": "https://github.com/IAnuragMahapatra/drift",
+    "live": ""
+  },
+  {
+    "id": "03",
+    "name": "COMMITSENSE",
+    "tag": "AI · DEVTOOLS",
+    "featured": true,
+    "description": "Git commit quality analyzer running AST static analysis and LLM semantic validation on every push via GitHub webhooks. Surfaces regressions before merge. Still unreliable; needs significant rework before shipping.",
+    "stack": [
+      "AST Static Analysis",
+      "Anthropic SDK",
+      "GitHub Webhooks",
+      "React",
+      "FastAPI"
+    ],
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop",
+    "imageAlt": "COMMITSENSE project",
+    "github": "https://github.com/IAnuragMahapatra/commit-sense",
+    "live": ""
   },
   {
     "id": "04",
-    "name": "NEXUS",
-    "tag": "WEB · ARCHITECTURE",
+    "name": "ASTRARESEARCH",
+    "tag": "AI · RESEARCH",
     "featured": false,
-    "description": "A distributed micro-frontend architecture orchestrating complex data visualization modules with seamless state synchronization across independent domains.",
+    "description": "AI research agent pulling from arXiv, PubMed, Semantic Scholar, Google Scholar and CORE. BM25 + SentenceTransformers ranking pipeline returns top-10 papers. LangChain + MCP architecture. Early-stage prototype.",
     "stack": [
-      "React",
-      "TypeScript",
-      "WebSockets"
+      "LangChain",
+      "MCP",
+      "BM25",
+      "SentenceTransformers",
+      "FastAPI",
+      "Python"
     ],
-    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
-    "imageAlt": "NEXUS project",
-    "github": "https://github.com",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop",
+    "imageAlt": "ASTRARESEARCH project",
+    "github": "",
     "live": ""
   },
   {
     "id": "05",
-    "name": "AURA",
-    "tag": "DESIGN · SYSTEMS",
+    "name": "DEBATEITOUT",
+    "tag": "AI · MULTI-AGENT",
     "featured": false,
-    "description": "Comprehensive design token engine that compiles Figma JSON variables into platform-specific configurations for web, iOS, and Android seamlessly.",
-    "stack": [
-      "Node.js",
-      "Figma API",
-      "GitHub Actions"
-    ],
-    "image": "https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=800&auto=format&fit=crop",
-    "imageAlt": "AURA project",
-    "github": "https://github.com",
+    "description": "Multi-model debate system splitting AI agents into opposing sides with moderator control. Structured discourse around contested topics. Early design phase; implementation pending.",
+    "stack": ["Anthropic SDK", "OpenAI SDK", "LangChain", "FastAPI"],
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
+    "imageAlt": "DEBATEITOUT project",
+    "github": "",
     "live": ""
   },
   {
     "id": "06",
-    "name": "SYNTHESIS",
-    "tag": "DATA · ENGINEERING",
+    "name": "THATAIISSUS",
+    "tag": "AI · GAMES",
     "featured": false,
-    "description": "High-throughput data processing pipeline aggregating logs from edge nodes, storing in a column-oriented database for real-time analytics.",
-    "stack": [
-      "Go",
-      "Kafka",
-      "ClickHouse"
-    ],
-    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop",
-    "imageAlt": "SYNTHESIS project",
-    "github": "https://github.com",
+    "description": "Multi-agent imposter-style game: answer → discussion → vote → post-vote reflection. Agents compete to survive elimination while hiding their roles. Game loop and agent orchestration in design; implementation pending.",
+    "stack": ["Anthropic SDK", "OpenAI SDK", "LangChain", "Python"],
+    "image": "https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=800&auto=format&fit=crop",
+    "imageAlt": "THATAIISSUS project",
+    "github": "",
     "live": ""
+  },
+  {
+    "id": "07",
+    "name": "PORTFOLIO",
+    "tag": "WEB · ARCHITECTURE",
+    "featured": false,
+    "description": "Static portfolio with client-side HTML reconstruction from Markdown + JSON. Zero build step; runs entirely in the browser. Hosted on Cloudflare Pages with cdn.ianurag.site proxy. Live and maintained.",
+    "stack": ["Vanilla JS", "GSAP", "Lenis", "Cloudflare Pages", "CSS"],
+    "image": "https://images.unsplash.com/photo-1639322537228-f710d846310a?q=80&w=800&auto=format&fit=crop",
+    "imageAlt": "PORTFOLIO project",
+    "github": "https://github.com/IAnuragMahapatra/portfolio",
+    "live": "https://ianurag.site"
   }
 ]

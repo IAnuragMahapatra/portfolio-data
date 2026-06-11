@@ -1,58 +1,47 @@
 [
   {
     "category": "LANGUAGES",
-    "items": [
-      "Python",
-      "JavaScript",
-      "TypeScript",
-      "Java",
-      "C/C++",
-      "SQL",
-      "Bash"
-    ]
+    "items": ["Python", "SQL", "C++", "C", "Bash", "Git"]
   },
   {
     "category": "AI / ML",
     "items": [
-      "LangChain",
-      "RAG (FAISS)",
-      "NLP (VADER, TF-IDF)",
-      "Hugging Face",
+      "Transformers",
       "OpenAI SDK",
-      "Anthropic SDK"
+      "Anthropic SDK",
+      "LangChain",
+      "RAG",
+      "Hugging Face",
+      "Model Training & Fine-tuning",
+      "Traditional ML Algorithms",
+      "ANNs"
     ]
   },
   {
     "category": "WEB TECH",
     "items": [
-      "React · Next.js",
-      "Node.js · Express",
+      "React (Basics)",
+      "Vanilla JS (GSAP, Lenis)",
       "FastAPI",
-      "MongoDB",
-      "PostgreSQL",
+      "Nginx",
+      "Redis",
       "WebSockets",
-      "REST APIs · JWT"
+      "REST APIs"
     ]
   },
   {
     "category": "CLOUD / OPS",
     "items": [
       "Docker",
-      "AWS (EC2, S3, RDS)",
-      "Lambda · CloudWatch",
-      "Vercel",
-      "Git · GitHub Actions",
+      "AWS (EC2, S3, RDS, Lambda, CloudWatch)",
+      "Cloudflare (Pages, DNS)",
+      "GitHub Actions",
+      "CI/CD",
       "Linux"
     ]
   },
   {
-    "category": "TOOLS",
-    "items": [
-      "Git",
-      "Cloudflare",
-      "AST (tree-sitter)",
-      "OAuth 2.0",
-      "pytest · Jest"
-    ]
+    "category": "TOOLS & CONCEPTS",
+    "items": ["Git", "AST Static Analysis", "MCPs", "Agent Skills"]
   }
 ]
